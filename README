@@ -1,0 +1,22 @@
+Save my feature settings, include packages I use, configs softwares use. 
+
+How To Use It?
+Simply run "sudo make" in that directory
+
+Configs included:
+Vim
+
+Packages included:
+vim
+tmux
+python
+python-pip
+default-jre
+default-jdk
+gcc
+g++
+gdb
+make
+git
+
+
