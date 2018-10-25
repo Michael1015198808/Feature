@@ -1,7 +1,18 @@
-.GNOME: feature test
+.GNOME: feature update commit nvidia test test2
 .DEFAULT: feature
-test:
-	@echo test
 feature:
-	@apt install $(cat packages)
+	@apt install $$(cat packages)
+	@snap install $$(cat softwares)
 	@cp .vimrc ~/.vimrc
+update:
+	@git add .
+	@git commit
+commit:
+	@git push -u origin master
+nvidia:
+	@apt install nvidia-settings
+	@ubuntu-drivers autoinstall
+test:
+	echo test
+test2:
+	echo test2

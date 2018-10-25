@@ -6,17 +6,5 @@ Simply run "sudo make" in that directory
 Configs included:
 Vim
 
-Packages included:
-vim
-tmux
-python
-python-pip
-default-jre
-default-jdk
-gcc
-g++
-gdb
-make
-git
-
+Packages included, PLZ see FILE packages by yourself
 

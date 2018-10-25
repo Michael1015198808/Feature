@@ -1,0 +1,1 @@
+build-essential man gcc-doc gdb git libreadline-dev libsd12-dev qemu-system-x86 exuberant-ctags

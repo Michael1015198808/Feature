@@ -1,10 +1,15 @@
 vim
 tmux
-python
-python-pip
+python3
+python3-pip
 default-jre
 default-jdk
 gcc
 gdb
 make
 git
+texlive
+texmaker
+texlive-full
+latex-cjk-all
+exuberant-ctags
