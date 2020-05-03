@@ -1,11 +1,10 @@
-.GNOME: feature update commit nvidia test test2
+.GNOME: packages vimrc commit nvidia
 .DEFAULT: feature
-feature:
+packages:
 	@apt install $$(cat packages)
-	@snap install $$(cat softwares)
-	@cp .vimrc ~/.vimrc
-	@cp /etc/apt/source.list /etc/apt/.backup.source.list
-	@cp .source.list /etc/apt/source.list
+vimrc:
+	@git clone git@github.com:Michael1015198808/vimrc.git ~/.vim_runtime
+	@sh ~/.vim_runtime/install_aewsome_vimrc.sh
 commit:
 	@git add .
 	@git commit
