@@ -4,6 +4,7 @@ python3
 default-jre
 default-jdk
 gcc
+g++
 gdb
 make
 git
